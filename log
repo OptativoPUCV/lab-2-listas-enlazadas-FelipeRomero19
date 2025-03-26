@@ -28,3 +28,13 @@ mi., 26 de mar. de 2025  9:20:07:
  tests:  1|5
 total_score: 10/70
 75c938a
+mi., 26 de mar. de 2025  9:20:31: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'firstList':
+list.c:41:11: error: expected identifier before '*' token
+     list->*current = list->head ;
+           ^
+Compilation failed
+f0bc1e9
