@@ -51,3 +51,16 @@ list.c:45:5: error: expected ';' before 'list'
      ^~~~
 Compilation failed
 807115d
+mi., 26 de mar. de 2025  9:22:17: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'firstList':
+list.c:42:5: error: expected expression before '[' token
+     [
+     ^
+list.c:45:5: error: expected ';' before 'list'
+     list->current = list->head ;
+     ^~~~
+Compilation failed
+4657b93
