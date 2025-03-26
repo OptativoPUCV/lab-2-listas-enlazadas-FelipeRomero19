@@ -161,3 +161,8 @@ list.c:61:41: error: invalid operands to binary | (have 'int' and 'Node * {aka s
                                          ^~~~~~~~~~~~~~~~~~~~
 Compilation failed
 24e465b
+mi., 26 de mar. de 2025  9:48:56: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+4b95bb2
