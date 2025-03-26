@@ -22,3 +22,9 @@ mi., 26 de mar. de 2025  9:12:37:
  tests:  1|5
 total_score: 10/70
 c50bffa
+mi., 26 de mar. de 2025  9:20:07: 
+ list.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ tests:  1|5
+total_score: 10/70
+75c938a
