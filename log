@@ -151,3 +151,13 @@ mi., 26 de mar. de 2025  9:41:41:
 mi., 26 de mar. de 2025  9:41:57: 
  tests:  0|0
 fe944f1
+mi., 26 de mar. de 2025  9:48:45: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'lastList':
+list.c:61:41: error: invalid operands to binary | (have 'int' and 'Node * {aka struct Node *}')
+     if(list==NULL || list->head == NULL |list->current->next)
+                                         ^~~~~~~~~~~~~~~~~~~~
+Compilation failed
+24e465b
