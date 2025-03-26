@@ -191,3 +191,9 @@ mi., 26 de mar. de 2025  9:58:51:
 mi., 26 de mar. de 2025 10:01:08: 
  tests:  0|0
 583a839
+mi., 26 de mar. de 2025 10:01:29: 
+ list.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+ tests:  9|3
+total_score: 35/70
+efe097d
