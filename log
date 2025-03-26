@@ -205,3 +205,9 @@ f30c401
 mi., 26 de mar. de 2025 10:02:36: 
  tests:  0|0
 4156967
+mi., 26 de mar. de 2025 10:02:56: 
+ list.c | 7 ++-----
+ 1 file changed, 2 insertions(+), 5 deletions(-)
+ tests:  9|3
+total_score: 35/70
+bf219b0
