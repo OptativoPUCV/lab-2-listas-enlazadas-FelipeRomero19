@@ -64,3 +64,9 @@ list.c:45:5: error: expected ';' before 'list'
      ^~~~
 Compilation failed
 4657b93
+mi., 26 de mar. de 2025  9:22:37: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  1|5
+total_score: 10/70
+98f9291
