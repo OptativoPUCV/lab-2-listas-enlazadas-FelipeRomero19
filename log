@@ -166,3 +166,14 @@ mi., 26 de mar. de 2025  9:48:56:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 4b95bb2
+mi., 26 de mar. de 2025  9:50:20: 
+ list.c | 8 +++-----
+ 1 file changed, 3 insertions(+), 5 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'lastList':
+list.c:70:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+381caf7
