@@ -38,3 +38,16 @@ list.c:41:11: error: expected identifier before '*' token
            ^
 Compilation failed
 f0bc1e9
+mi., 26 de mar. de 2025  9:22:06: 
+ list.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'firstList':
+list.c:42:5: error: expected expression before '[' token
+     [
+     ^
+list.c:45:5: error: expected ';' before 'list'
+     list->current = list->head ;
+     ^~~~
+Compilation failed
+807115d
