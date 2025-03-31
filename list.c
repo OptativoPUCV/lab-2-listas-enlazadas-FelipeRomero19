@@ -98,9 +98,14 @@ void pushFront(List * list, void * data) {
 }
 
 void pushBack(List * list, void * data) {
+    Node* aux = list->head;
+    while(aux->next != NULL){
+        aux = aux->next ;
+    }
+    Node* newNode = createNode(data) ;
+    aux->next = newNode;
+    newNode->prev = aux ;
     
-
-
     list->current = list->tail;
     pushCurrent(list,data);
 }
