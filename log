@@ -211,3 +211,13 @@ mi., 26 de mar. de 2025 10:02:56:
  tests:  9|3
 total_score: 35/70
 bf219b0
+Sun, Mar 30, 2025  9:19:43 PM: 
+ list.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:88:48: error: expected expression before ')' token
+     Node* newNode = (Node*)malloc(sizeof(sizeof)) ;
+                                                ^
+Compilation failed
+3d9481e
