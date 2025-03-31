@@ -221,3 +221,11 @@ list.c:88:48: error: expected expression before ')' token
                                                 ^
 Compilation failed
 3d9481e
+Sun, Mar 30, 2025  9:20:11 PM: 
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:88:48: error: expected expression before ')' token
+     Node* newNode = (Node*)malloc(sizeof(sizeof)) ;
+                                                ^
+Compilation failed
+9b5e64e
