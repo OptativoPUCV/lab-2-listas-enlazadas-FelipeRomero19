@@ -150,12 +150,27 @@ void * popCurrent(List * list) {
     }
     Node *izq = list->current->prev;
     Node *der = list->current->next;
-    izq->next = der ;
-    der->prev = izq ;
+    void *data = list->current->data ;
+    if(izq != NULL){
+        izq->next = der ;
+    }
+    else{
+        list->head = der ;     
+    }
+    if(der != NULL){
+        der->prev = izq ;
+    }
+    else{
+        list->tail = izq ;
+    }
     free(list->current) ;
-    list->current = NULL ;
+    if(der != NULL){
+        list->current = der ;
+    }else{
+        list->current = izq ;
+    }
 
-    return NULL;
+    return data;
 }
 
 void cleanList(List * list) {
