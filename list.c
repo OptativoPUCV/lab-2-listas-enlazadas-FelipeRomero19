@@ -97,15 +97,7 @@ void pushFront(List * list, void * data) {
     }
 }
 
-void pushBack(List * list, void * data) { //esto no sale en el readme
-    Node* aux = list->head;
-    while(aux->next != NULL){
-        aux = aux->next ;
-    }
-    Node* newNode = createNode(data) ;
-    aux->next = newNode;
-    newNode->prev = aux ;
-    
+void pushBack(List * list, void * data) {
     list->current = list->tail;
     pushCurrent(list,data);
 }
@@ -164,9 +156,11 @@ void * popCurrent(List * list) {
         list->tail = izq ;
     }
     free(list->current) ;
+
     if(der != NULL){
         list->current = der ;
-    }else{
+    }
+    else{
         list->current = izq ;
     }
 
